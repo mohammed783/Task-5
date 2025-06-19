@@ -38,7 +38,7 @@ const SignUp: React.FC = () => {
             </div>
           </label>
 
-          <button type="submit">SIGN UP</button>
+          <Link to={'/Dashboard'}> <button type="submit">SIGN UP</button></Link> 
         </form>
 
         <p className="signin-link">

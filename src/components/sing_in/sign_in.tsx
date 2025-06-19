@@ -20,7 +20,7 @@ const SignIn: React.FC = () => {
           <label htmlFor="password">Password</label>
           <input type="password" id="password" placeholder="Enter your password" required />
 
-          <button type="submit">SIGN IN</button>
+          <Link to={'./Dashboard'}><button type="submit">SIGN IN</button> </Link>
         </form>
 
         <p className="signup-link">
